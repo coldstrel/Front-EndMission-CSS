@@ -1,0 +1,265 @@
+    header {
+        height: 200px;
+        font-family: Consolas;
+    }
+    
+    #vacuna-titulo {
+        font-size: 50px;
+        font-weight: bold;
+        color: blue;
+        text-align: center;
+        line-height: 200px;
+    }
+    
+    #secciones {
+        font-size: 20px;
+        line-height: 200px;
+    }
+    
+    #secciones a {
+        text-align: center;
+        margin: 0 50px;
+        font-weight: bold;
+        color: grey;
+        display: inline-block;
+        height: fit-content;
+        line-height: 20px;
+        padding: 20px
+    }
+    
+    #secciones .booster {
+        color: RGB(255, 255, 255);
+        background-color: RGB(7, 3, 252);
+        border-radius: 25px;
+    }
+    
+    .informacion-1 {
+        height: 800px;
+    }
+    
+    .info-texto {
+        text-align: center;
+        margin: 0;
+        font-family: "Courier New";
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    .enfermera img {
+        float: right;
+        height: 800px;
+        width: 100%;
+    }
+    
+    .horario-vacuna {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 150px;
+        align-content: space-between;
+        width: 50vw;
+        border-radius: 0 8px 8px 8px;
+        padding: 1em;
+        background-color: rgba(255, 255, 255, 0.801);
+        backdrop-filter: blur(3px);
+        box-shadow: 2px 2px 5px 2px rgb(41 41 41 / 17%);
+    }
+    
+    .info-horario {
+        text-align: center;
+        position: relative;
+    }
+    
+    .info-horario-iconos {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    
+    .info-horario-iconos div {
+        padding-right: 50px;
+        float: left;
+        font-weight: bold;
+    }
+    
+    .vacunas {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .vacunas img {
+        display: inline-block;
+        padding: 10px;
+        margin: 5px 20px;
+    }
+    
+    .porque-vacunarse h2 {
+        text-align: center;
+        font-size: 60px;
+        color: #3049fe;
+        font-weight: bold;
+    }
+    
+    .porque-vacunarse {
+        left: 0px;
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    .porque-vacunarse p {
+        text-align: justify;
+        margin: 0 auto;
+        width: 30em;
+    }
+    
+    .porque-info {
+        position: relative;
+        font-size: 50px;
+    }
+    
+    .info-vacuna-importante {
+        left: 0px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 30px;
+        color: #1f2da7;
+    }
+    
+    .descripcion-porque {
+        left: 0px;
+        text-align: left;
+        font-size: 25px;
+        color: #2c2b2b;
+    }
+    
+    .preparations {
+        font-size: 50px;
+        font-family: Consolas;
+        color: blue;
+        font-weight: bold;
+    }
+    
+    .succes-preparation {
+        font-size: 25px;
+        font-family: Consolas;
+    }
+    
+    .succes-preparation-tips {
+        font-size: 25px;
+        font-family: Consolas;
+        padding-left: 50px;
+    }
+    
+    .contactos-emergencia {
+        text-align: center;
+        font-size: 80px;
+        color: #3049fe;
+        font-family: Consolas;
+        font-weight: bold;
+    }
+    
+    .info-contactos {
+        font-size: 24px;
+        font-family: Consolas;
+        margin: 0;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .que-hacer {
+        font-family: Consolas;
+        color: #0000006e;
+        font-size: 30px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    
+    .contacto-numero {
+        font-family: Consolas;
+        display: block;
+        text-align: right;
+    }
+    
+    .botones {
+        text-align: center;
+        font-family: Consolas;
+        font-size: 30px;
+        color: white;
+        background-color: #3c49c5;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        box-shadow: 5px 10px 8px #888888;
+        border-radius: 20px;
+    }
+    
+    .cajita {
+        box-shadow: 5px -5px 9px 0px #888888;
+        border-radius: 10px;
+    }
+    
+    .footer-vaccination {
+        font-size: 60px;
+        color: #3049fe;
+        font-family: Consolas;
+        font-weight: bold;
+    }
+    
+    footer {
+        background-color: #6ab4ff;
+    }
+    
+    .info-footer-vaccination {
+        font-size: 24px;
+        font-family: Consolas;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .cajita1 {
+        margin-top: 80px;
+        margin-left: 90px;
+    }
+    
+    .rights {
+        color: #007575;
+        margin-top: 100px;
+        margin-left: 90px;
+    }
+    
+    .a-c-s {
+        margin-top: 80px;
+        margin-left: 90px;
+        font-size: 24px;
+        font-family: Consolas;
+        text-align: left;
+    }
+    
+    .abs-vaccination {
+        font-size: 30px;
+        font-family: Consolas;
+        text-align: left;
+        color: #7340ff;
+        font-weight: bold;
+    }
+    
+    .abs-footer-vaccination {
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    
+    .terms {
+        margin-top: 200px;
+        margin-right: 100px;
+        font-size: 24px;
+        text-decoration-style: none;
+        color: #007575;
+    }
+    
+    .terms a {
+        margin-left: 30px;
+    }
