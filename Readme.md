@@ -2,4 +2,4 @@
 
 Pagina montada en Github. 
 
-[title](https://coldstrel.github.io/Front-EndMission-CSS/)
+[practica vacunacion](https://coldstrel.github.io/Front-EndMission-CSS/)
